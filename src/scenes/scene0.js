@@ -1,5 +1,5 @@
 /*global Phaser*/
-import * as ChangeScene from "./changeScene.js";
+import * as ChangeScene from "./ChangeScene.js";
 export default class Scene0 extends Phaser.Scene {
   constructor () {
     super('Scene0');
@@ -27,7 +27,7 @@ export default class Scene0 extends Phaser.Scene {
 
   create (data) {
     // Event listener to change scenes
-    ChangeScene.addChangeSceneEventListeners(this);
+    ChangeScene.addSceneEventListeners(this);
 
     //Add background to scene
     const background = this.add.sprite(1280 / 2, 960 / 2, "dessert");

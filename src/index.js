@@ -1,15 +1,15 @@
 /*global Phaser, window*/
 import BootScene from './scenes/BootScene.js';
-import Scene0 from './scenes/scene0.js';
-import Scene1 from './scenes/scene1.js';
-import Scene2 from './scenes/scene2.js';
-import Scene3 from './scenes/scene3.js';
-import Scene4 from './scenes/scene4.js';
-import Scene5 from './scenes/scene5.js';
-import Scene6 from './scenes/scene6.js';
-import Scene7 from './scenes/scene7.js';
-import Scene8 from './scenes/scene8.js';
-import Scene9 from './scenes/scene9.js';
+import Scene0 from './scenes/Scene0.js';
+import Scene1 from './scenes/Scene1.js';
+import Scene2 from './scenes/Scene2.js';
+import Scene3 from './scenes/Scene3.js';
+import Scene4 from './scenes/Scene4.js';
+import Scene5 from './scenes/Scene5.js';
+import Scene6 from './scenes/Scene6.js';
+import Scene7 from './scenes/Scene7.js';
+import Scene8 from './scenes/Scene8.js';
+import Scene9 from './scenes/Scene9.js';
 import Config from './config/config.js';
 
 class Game extends Phaser.Game {
